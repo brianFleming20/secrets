@@ -1,16 +1,168 @@
 <%- include('partials/header') %>
 
 
-<div class="jumbotron centered">
-  <div class="container">
-    <i class="fas fa-key fa-6x"></i>
-    <h1 class="display-3">Secrets</h1>
-    <p class="lead">Don't keep your secrets, share them anonymously!</p>
-    <hr>
-    <a class="btn btn-light btn-lg" href="/register" role="button">Register</a>
-    <a class="btn btn-dark btn-lg" href="/login" role="button">Login</a>
+    <!-- Title -->
 
+    <div class="row">
+
+      <div class="col-lg-6">
+        <h1>Building better interactive websites.</h1>
+        <a class="btn btn-light btn-lg button" href="#pricing" role="button">Quote</a>
+        <a class="btn btn-dark btn-lg" href="/login" role="button">Login</a>
+      </div>
+
+
+      <div class="col-lg-6">
+        <img class="title-image" src="images/computer2.png"  alt="computers">
+      </div>
+
+    </div>
   </div>
-</div>
+</section>
+
+<section id="features">
+  <div class="row">
+    <div class="feature-box col-lg-4">
+      <i class="fas fa-check-circle"></i>
+      <h3>Easy to use.</h3>
+      <p>Creative degigns that catch the eye.</p>
+    </div>
+
+    <div class="feature-box col-lg-4">
+      <i class="fas fa-bullseye"></i>
+      <h3>Contains CES</h3>
+      <p>Creative, eye-catching, successful.</p>
+
+    </div>
+    <div class="feature-box col-lg-4">
+      <i class="fas fa-heart"></i>
+      <h3>Guaranteed to work.</h3>
+      <p>All maintance is is included with the price for the web page.</p>
+    </div>
+  </div>
+
+</section>
+
+  <!-- Testimonials -->
+
+  <section id="testimonials">
+
+    <div id="testamonial-carousel" class="carousel slide" data-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2>The website is just what I wanted.</h2>
+          <img class="testimonial-image" src="images/jenni2.jpg" alt="lady profile image">
+          <em>Serendipity</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="testimonial-text">What a wonderful website.</h2>
+          <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
+          <em>Beverly</em>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#testamonial-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#testamonial-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+
+  </section>
+
+  <!-- Press -->
+
+  <section id="press">
+    <img class="press-logo" src="images/techcrunch.png" alt="tc-logo">
+    <img class="press-logo" src="images/tnw.png" alt="tnw-logo">
+    <img class="press-logo" src="images/bizinsider.png" alt="biz-insider-logo">
+    <img class="press-logo" src="images/mashable.png" alt="mashable-logo">
+
+  </section>
+
+    <!-- Pricing -->
+
+    <section id="pricing">
+
+      <h2>A Plan for every site's needs</h2>
+      <p>With database access and hosting available</p>
+  
+      <div class="row">
+  
+  <div class="col-lg-4 col-md-6">
+    <div class="card">
+      <div class="card-header">
+        <h3>Personal</h3>
+      </div>
+      <div class="card-body">
+        <h3>with admin</h3>
+        <p>Build web site</p>
+        <p>Provided hosting</p>
+        <p>Trouble-shooting</p>
+        <a href="quotepersonnal" name="Personal" class="btn btn-primary stretched-link">Select</a>
+      </div>
+    </div>
+  </div>
+  
+        <div class="col-lg-4 col-md-6">
+  
+          <div class="card">
+            <div class="card-header">
+              <h3> commerse </h3>
+            </div>
+            <div class="card-body">
+              <h3>Admin & ueser login</h3>
+              <p>Website build</p>
+              <p>Hosting and database</p>
+              <p>Unlimited trouble-shooting</p>
+              <a href="ecommerse" class="btn btn-primary stretched-link">Select</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card">
+            <div class="card-header">
+              <h3> application </h3>
+            </div>
+            <div class="card-body">
+              <h3>Downloadable content</h3>
+              <p>Remote database</p>
+              <p></p>
+              <p>Unlimited maintainace</p>
+              <p>Unlimited trouble-shooting</p>
+              <a href="quoteapp" class="btn btn-primary stretched-link">Select</a>
+            </div>
+          </div>
+        </div>
+  
+  
+      </div>
+  
+    </section>
+
+    
+  <!-- Call to Action -->
+
+  <section id="cta">
+    <div>
+
+    <h3>Putting your interests first.</h3>
+
+    <div class="jumbotron centered">
+      <div>
+      <div class="container">
+        <i class="fas fa-key fa-4x"></i>
+      </div>
+    </div>
+    <a class="btn btn-outline-info button" href="/about" role="button">About</a>
+    <a class="btn btn-outline-info" href="/contact" role="button">Sign up for a newsletter</a>
+    <h6 class="navbar"> </h6>
+      </div>
+      </div>
+  </section>
+
+
+
+
 
 <%- include('partials/footer') %>

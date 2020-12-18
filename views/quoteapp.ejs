@@ -1,0 +1,21 @@
+<%- include("partials/header"); -%>
+
+<h2>Request site build info for <%= content %></h2>
+
+<div class="cont">
+
+  <form class="form-group" action="/composeS" method="post">
+    <label for="">Title</label>
+    <input class ="inputBox" type="text" name="postText" >
+    <label for="">Request</label>
+    <textarea class="inputBox" name="postBody" rows="8" cols="80"></textarea>
+    <button class="btn btn-primary" type="submit" name="button">Request website options</button>
+
+  </form>
+</div>
+
+
+
+
+
+<%- include("partials/footer"); -%>

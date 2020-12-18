@@ -1,7 +1,4 @@
 
-body {
-  background-color: #E8ECEF;
-}
 
 .centered {
     padding-top: 200px;
@@ -13,4 +10,299 @@ body {
   font-size: 2rem;
   color: #fff;
   background-color: #000;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-family: 'Montserrat-Black', sans-serif;
+  color: white;
+  font-size: 3.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+h2{
+  font-family: "Montserrat-bold";
+  font-size: 3.5rem;
+
+}
+
+h3{
+  font-family: "Montserrat-bold";
+  font-size: 1.5rem;
+}
+
+
+
+p{
+  color: #8f8f8f;
+}
+
+/* title */
+#title {
+  background-color: #0278ae;
+}
+
+#image{
+  background-color: #0278ae;
+  height: 25rem;
+}
+
+.centre{
+  text-align: center;
+}
+
+
+/* navigation bar */
+
+.container-fluid {
+  padding: 3% 15% 8%;
+}
+
+.cont{
+  background-color: whitesmoke;
+}
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  color: #e8ffc1;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar-nav  li a:hover {
+  color: #eff1e5 !important;
+}
+
+.li{
+  color: rgb(30, 22, 66);
+}
+
+.nav-item{
+  padding-right: 18px;
+
+}
+.nav-link{
+  color: #150e58;
+}
+
+.inputBox{
+  text-align: left;
+  width: 100%;
+}
+
+
+
+
+/* image rotate */
+.title-image {
+position: absolute;
+  width: 110%;
+ 
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+.button {
+  margin: 5% 8% 5% 12%;
+}
+
+
+/* features section */
+
+#features{
+  padding: 8% 15%;
+  background-color: white;
+  position: relative;
+
+}
+.feature-box{
+  text-align: center;
+}
+
+.fas{
+  color: #ef8172;
+  font-size: 3rem;
+}
+
+.fas:hover{
+  color: #ff4c68;
+}
+
+.padding{
+  padding: 5rem;
+}
+
+/* testermonials */
+
+#testimonials{
+
+  text-align: center;
+  background-color:  #0278ae;
+  color: white;
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+#press{
+  text-align: center;
+  background-color: #51adcf;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing */
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+/* call to action */
+#cta{
+  text-align: center;
+  
+}
+
+.onRight{
+  text-align: right;
+  padding-right: 2rem;
+  color: #0278ae;
+}
+
+/* footer */
+
+.full {
+  width: 100%;    
+}
+.gap {
+height: 30px;
+width: 100%;
+clear: both;
+display: block;
+}
+.footer {
+background: #002147;
+height: auto;
+padding-bottom: 30px;
+position: relative;
+width: 100%;
+border-bottom: 1px solid #CCCCCC;
+border-top: 1px solid #DDDDDD;
+}
+.footer p {
+margin: 0;
+}
+.footer img {
+max-width: 100%;
+}
+.footer h3 {
+color: white;
+font-size: 18px;
+font-weight: 600;
+line-height: 27px;
+padding: 40px 0 0px;
+text-transform: uppercase;
+margin-bottom: 15px;
+}
+
+.footer h4 {
+color: white;
+font-size: 2em;
+font-weight: 600;
+line-height: 38px;
+padding: 40px 0 10px;
+font-family: cursive;
+font-weight: lighter
+}
+
+.footer ul {
+font-size: 13px;
+list-style-type: none;
+margin-left: 0;
+padding-left: 0;
+margin-top: 0px;
+color: #7F8C8D;
+padding: 0 0 8px 0;
+}
+
+.email{
+border-bottom: 3px solid #fff;
+}
+.footer ul li a {
+padding: 0 0 12px 0;
+display: block;
+}
+.footer a {
+color: white;
+font-weight: lighter;
+}
+
+.footer p {
+color: white;
+font-weight: lighter;
+}
+
+.footer a:hover {
+text-decoration:none;
+font-weight: bold;
+}
+.supportLi h4 {
+font-size: 20px;
+font-weight: lighter;
+line-height: normal;
+margin-bottom: 0 !important;
+padding-bottom: 0;
+}
+
+.bg-gray {
+background-image: -moz-linear-gradient(center bottom, #BBBBBB 0%, #F0F0F0 100%);
+box-shadow: 0 1px 0 #B4B3B3;
+}
+
+
+.footer a {
+color: #78828D
+}
+
+.footer-bottom {
+margin-top: 2em;
+border-top: 1px solid #DDDDDD;
+padding-top: 20px;
+padding-bottom: 10px;
+}
+.footer-bottom p.pull-left {
+padding-top: 6px;
+font-size: 0.75em
+}
+
+.btn-google{
+  color: #ff4646;
 }

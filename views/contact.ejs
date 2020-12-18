@@ -1,0 +1,24 @@
+<%- include('partials/header') %>
+
+<form action="/" class="form-signin" method="POST">
+
+
+
+    <img class="mb-4" src="images/tick.png" alt="" width="72" height="72">
+    <h1 class="h3 mb-3 font-weight-normal">Sign up to my newsletter!</h1>
+
+    <input type="text" name="fname" class="form-control top" placeholder="First name" required autofocus>
+
+    <input type="text" name="lname" class="form-control middle" placeholder="Last name" required>
+    <input type="email"  name="email" class="form-control" placeholder="email" required>
+
+    <button class="btn btn-lg btn-primary btn-block bottom" type="submit">Sign me up</button>
+   
+  </form>
+  <div id="image">
+
+  </div>
+
+
+
+<%- include('partials/footer') %>
